@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np
 
 df = pd.read_csv('/gbm_tcga,cell_pub2013_clinical_data.csv')
 df = df.dropna(subset=['Disease Free (Months)', 'TMB (nonsynonymous)'])
