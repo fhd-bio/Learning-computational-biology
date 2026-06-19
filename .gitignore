@@ -147,9 +147,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# ==========================================
-# CUSTOM ADDITIONS: OS & CLINICAL DATA
-# ==========================================
+##Macos and clinical data stuff
 
 ### macOS ###
 .DS_Store
@@ -181,5 +179,5 @@ Temporary Items
 *.tar.gz
 *.dat
 
-# Ignore large exported plots (Optional: remove this if you DO want to upload your PNGs)
+# Ignore large exported plots (Optional: remove this if we DO want to upload PNGs/JPGs)
 # *.jpg
